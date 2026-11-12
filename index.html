@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SMARTFIX | Sistema de Gestión de Calidad</title>
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Fira+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<section id="welcome" class="view active">
+  <video autoplay muted loop playsinline src="video.mp4"></video>
+  <div class="veil"></div>
+  <div class="hero">
+    <img src="logo.png" alt="Logo SMARTFIX" class="hero-logo">
+    <small>SMARTFIX</small>
+    <h1>Sistema Digital de Gestión y Reparación de Dispositivos Android</h1>
+    <button class="btn" id="enter">Ingresar</button>
+  </div>
+</section>
+
+<section id="contents" class="view">
+  <h2 class="page-title">Contenido</h2>
+  <div class="cards" id="cards"></div>
+</section>
+
+<section id="chapter" class="view">
+  <nav class="topnav"><a class="brand" href="#contenido"><img src="logo.png" alt=""><span><b>SMARTFIX</b><i>Sistema de Gestión de Calidad</i></span></a><div id="tabs"></div></nav>
+  <header class="band" id="band"></header>
+  <article class="body" id="body"></article>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
